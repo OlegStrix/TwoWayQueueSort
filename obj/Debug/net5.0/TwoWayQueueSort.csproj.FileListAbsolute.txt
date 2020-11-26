@@ -1,0 +1,16 @@
+/home/oleg/RiderProjects/TwoWayQueueSort/bin/Debug/net5.0/TwoWayQueueSort
+/home/oleg/RiderProjects/TwoWayQueueSort/bin/Debug/net5.0/TwoWayQueueSort.deps.json
+/home/oleg/RiderProjects/TwoWayQueueSort/bin/Debug/net5.0/TwoWayQueueSort.runtimeconfig.json
+/home/oleg/RiderProjects/TwoWayQueueSort/bin/Debug/net5.0/TwoWayQueueSort.runtimeconfig.dev.json
+/home/oleg/RiderProjects/TwoWayQueueSort/bin/Debug/net5.0/TwoWayQueueSort.dll
+/home/oleg/RiderProjects/TwoWayQueueSort/bin/Debug/net5.0/ref/TwoWayQueueSort.dll
+/home/oleg/RiderProjects/TwoWayQueueSort/bin/Debug/net5.0/TwoWayQueueSort.pdb
+/home/oleg/RiderProjects/TwoWayQueueSort/obj/Debug/net5.0/TwoWayQueueSort.csprojAssemblyReference.cache
+/home/oleg/RiderProjects/TwoWayQueueSort/obj/Debug/net5.0/TwoWayQueueSort.GeneratedMSBuildEditorConfig.editorconfig
+/home/oleg/RiderProjects/TwoWayQueueSort/obj/Debug/net5.0/TwoWayQueueSort.AssemblyInfoInputs.cache
+/home/oleg/RiderProjects/TwoWayQueueSort/obj/Debug/net5.0/TwoWayQueueSort.AssemblyInfo.cs
+/home/oleg/RiderProjects/TwoWayQueueSort/obj/Debug/net5.0/TwoWayQueueSort.csproj.CoreCompileInputs.cache
+/home/oleg/RiderProjects/TwoWayQueueSort/obj/Debug/net5.0/TwoWayQueueSort.dll
+/home/oleg/RiderProjects/TwoWayQueueSort/obj/Debug/net5.0/ref/TwoWayQueueSort.dll
+/home/oleg/RiderProjects/TwoWayQueueSort/obj/Debug/net5.0/TwoWayQueueSort.pdb
+/home/oleg/RiderProjects/TwoWayQueueSort/obj/Debug/net5.0/TwoWayQueueSort.genruntimeconfig.cache
