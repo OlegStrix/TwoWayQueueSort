@@ -9,7 +9,7 @@ namespace ClassLib
             Queue<int> a1 = new Queue<int>();
             Queue<int> a2 = new Queue<int>();
             int i, j;
-            int k = 1;
+            var k = 1;
             while (k < Count)
             {
                 while (Count != 0)
@@ -73,7 +73,6 @@ namespace ClassLib
                     Enqueue(a2.Peek());
                     a2.Dequeue();
                 }
-
                 k *= 2;
             }
         }
