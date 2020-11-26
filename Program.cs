@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using ClassLib;
 namespace TwoWayQueueSort
 {
     class Program
@@ -9,12 +10,9 @@ namespace TwoWayQueueSort
             Queue<int> a = new Queue<int>();
             a.Enqueue(3);
             a.Enqueue(-2);
-            a.Enqueue(10);
+            a.Enqueue(1);
 
-            foreach (var x in a)
-            {
-                Console.Write(x + " ");
-            }
+            Class1.Sorting(a);
         }
     }
 }

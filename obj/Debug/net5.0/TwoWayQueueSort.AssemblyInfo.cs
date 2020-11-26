@@ -10,13 +10,13 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("TwoWayQueueSort")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("TwoWayQueueSort")]
-[assembly: System.Reflection.AssemblyTitleAttribute("TwoWayQueueSort")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+//[assembly: System.Reflection.AssemblyCompanyAttribute("TwoWayQueueSort")]
+//[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+//[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+//[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+//[assembly: System.Reflection.AssemblyProductAttribute("TwoWayQueueSort")]
+//[assembly: System.Reflection.AssemblyTitleAttribute("TwoWayQueueSort")]
+//[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
 

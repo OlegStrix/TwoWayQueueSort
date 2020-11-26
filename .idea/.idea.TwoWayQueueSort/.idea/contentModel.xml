@@ -4,6 +4,29 @@
     <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_TwoWayQueueSort.-646140071.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="ClassLib" t="IncludeRecursive">
+        <e p="Class1.cs" t="Include" />
+        <e p="ClassLib.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="ClassLib.csproj.nuget.dgspec.json" t="Include" />
+          <e p="ClassLib.csproj.nuget.g.props" t="Include" />
+          <e p="ClassLib.csproj.nuget.g.targets" t="Include" />
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p=".NETCoreApp,Version=v5.0.AssemblyAttributes.cs" t="Include" />
+              <e p="ClassLib.AssemblyInfo.cs" t="Include" />
+              <e p="ClassLib.AssemblyInfoInputs.cache" t="Include" />
+              <e p="ClassLib.GeneratedMSBuildEditorConfig.editorconfig" t="Include" />
+              <e p="ClassLib.assets.cache" t="Include" />
+            </e>
+          </e>
+          <e p="project.assets.json" t="Include" />
+          <e p="project.nuget.cache" t="Include" />
+          <e p="project.packagespec.json" t="Include" />
+          <e p="rider.project.restore.info" t="Include" />
+        </e>
+      </e>
       <e p="Program.cs" t="Include" />
       <e p="TwoWayQueueSort.csproj" t="IncludeRecursive" />
       <e p="TwoWayQueueSort.sln" t="IncludeFlat" />
