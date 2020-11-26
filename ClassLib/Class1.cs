@@ -6,6 +6,7 @@ namespace ClassLib
     {
         public void Sorting()
         {
+            //Создание двух вспомогательных очередей
             Queue<int> a1 = new Queue<int>();
             Queue<int> a2 = new Queue<int>();
             int i, j;
@@ -14,6 +15,7 @@ namespace ClassLib
             {
                 while (Count != 0)
                 {
+                    //Заполнение двух очередей значениями
                     for (i = 0; i < k && Count != 0; i++)
                     {
                         a1.Enqueue(Peek());
@@ -26,7 +28,7 @@ namespace ClassLib
                         Dequeue();
                     }
                 }
-
+                //Сортировка
                 while (a1.Count != 0 && a2.Count != 0)
                 {
                     i = 0;
@@ -46,7 +48,7 @@ namespace ClassLib
                             j++;
                         }
                     }
-
+                    //Если после прохода цикла остались элементы в одной из исходных очередей, то идет передача значений в основную
                     while (i < k && a1.Count != 0)
                     {
                         Enqueue(a1.Peek());
@@ -61,7 +63,7 @@ namespace ClassLib
                         j++;
                     }
                 }
-
+                //Если после прохода цикла остались элементы в одной из исходных очередей, то идет передача значений в основную
                 while (a1.Count != 0)
                 {
                     Enqueue(a1.Peek());
@@ -73,6 +75,7 @@ namespace ClassLib
                     Enqueue(a2.Peek());
                     a2.Dequeue();
                 }
+                //Увеличение счеткика в два раза
                 k *= 2;
             }
         }
