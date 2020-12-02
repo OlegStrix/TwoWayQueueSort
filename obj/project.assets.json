@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "/home/oleg/.nuget/packages/": {}
+    "C:\\Users\\olego\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/oleg/RiderProjects/TwoWayQueueSort/TwoWayQueueSort.csproj",
+      "projectUniqueName": "C:\\Users\\olego\\RiderProjects\\TwoWayQueueSort\\TwoWayQueueSort.csproj",
       "projectName": "TwoWayQueueSort",
-      "projectPath": "/home/oleg/RiderProjects/TwoWayQueueSort/TwoWayQueueSort.csproj",
-      "packagesPath": "/home/oleg/.nuget/packages/",
-      "outputPath": "/home/oleg/RiderProjects/TwoWayQueueSort/obj/",
+      "projectPath": "C:\\Users\\olego\\RiderProjects\\TwoWayQueueSort\\TwoWayQueueSort.csproj",
+      "packagesPath": "C:\\Users\\olego\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\olego\\RiderProjects\\TwoWayQueueSort\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/oleg/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\olego\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\olego\\.dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

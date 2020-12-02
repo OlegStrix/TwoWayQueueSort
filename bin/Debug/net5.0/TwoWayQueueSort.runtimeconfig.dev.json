@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/home/oleg/.dotnet/store/|arch|/|tfm|",
-      "/home/oleg/.nuget/packages"
+      "C:\\Users\\olego\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\olego\\.nuget\\packages"
     ]
   }
 }

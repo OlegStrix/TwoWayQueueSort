@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\olego\\RiderProjects\\TwoWayQueueSort\\TwoWayQueueSort.csproj",
-    "projectName": "TwoWayQueueSort",
-    "projectPath": "C:\\Users\\olego\\RiderProjects\\TwoWayQueueSort\\TwoWayQueueSort.csproj",
-    "outputPath": "C:\\Users\\olego\\RiderProjects\\TwoWayQueueSort\\obj\\",
+    "projectUniqueName": "C:\\Users\\olego\\RiderProjects\\TwoWayQueueSort\\ClassLib\\ClassLib.csproj",
+    "projectName": "ClassLib",
+    "projectPath": "C:\\Users\\olego\\RiderProjects\\TwoWayQueueSort\\ClassLib\\ClassLib.csproj",
+    "outputPath": "C:\\Users\\olego\\RiderProjects\\TwoWayQueueSort\\ClassLib\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "net50"

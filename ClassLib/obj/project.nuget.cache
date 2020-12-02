@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3ICTHBjK4jbf1Be3uQl9iszfONMllsW98fris2+NlEF0v+AQ4z7oiMpaHPMeB3WincsJLWYkHcDyzRiAJX1T8A==",
+  "dgSpecHash": "yzSSz3pl+VqwzkiUUCLrbbUCmjS2l10l4uazguquQUH3dmLGg20wH33Zw4v3UlyNTqefygB4GgElUPnmmJFwyw==",
   "success": true,
-  "projectFilePath": "/home/oleg/RiderProjects/TwoWayQueueSort/ClassLib/ClassLib.csproj",
+  "projectFilePath": "C:\\Users\\olego\\RiderProjects\\TwoWayQueueSort\\ClassLib\\ClassLib.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

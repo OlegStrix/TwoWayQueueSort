@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1Q/+GFk0ywjEU7OAMnh27PoXcDo9CeqIxp9P6l0ae0pIEXUyvpbmSUwFMek5WJtEs+coOBkHQ5LGW3NXnP4wSQ==",
+  "dgSpecHash": "hH61TysAwJlgizP1HFALMmOy6Uwhy4hmexakY3WrMKMAlm7I1GKGCsoSewL0yIg0euWARsPMLdOBOQMVpqchnw==",
   "success": true,
-  "projectFilePath": "/home/oleg/RiderProjects/TwoWayQueueSort/TwoWayQueueSort.csproj",
+  "projectFilePath": "C:\\Users\\olego\\RiderProjects\\TwoWayQueueSort\\TwoWayQueueSort.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
