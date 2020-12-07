@@ -9,8 +9,9 @@ namespace TwoWayQueueSort
         static void Main(string[] args)
         {
             //Количество элементов очереди
-            int digitsCounts = 500000;
+            int digitsCounts = 2000;
             Class1 a = new Class1();
+            Ochered<int> b = new Ochered<int>();
             //Создание объекта класса
             var time = new Stopwatch();
             Random rand = new Random();
@@ -34,11 +35,11 @@ namespace TwoWayQueueSort
                 Console.WriteLine($"Number of sortings: {p + 1}");
                 Console.WriteLine($"\tNumber of sorted items: {digitsCounts}");
                 Console.WriteLine($"\tSorting time (sec, ms): {interval.Seconds}, {interval.Milliseconds}");
-                Console.WriteLine($"\tN_op = {a.N_op}\n");
+                Console.WriteLine($"\tN_op = {a.N_op+b.N_op1}\n");
                 //Отчистка очереди
                 a.Clear();
                 //Увеличение количества элементов очереди
-                digitsCounts += 500000;
+                digitsCounts += 2000;
                 //Обнуляем время
                 time.Reset();
             }

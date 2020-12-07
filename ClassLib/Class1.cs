@@ -1,19 +1,112 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Net.Sockets;
 
 namespace ClassLib
 {
+    class Ochered<T>
+    {
+        public ulong N_op1 { get; set; } = 0;
+        
+        class Node
+        {
+            public Node(T val = default(T), Node n = null)
+            {
+                Value = val;
+                Next = n;
+            }
+            public Node Next;
+            public T Value;
+        }
+        public Ochered()
+        {
+            top = null;
+        }
+        public void Enqueue(T value)
+        {
+            if (Empty == true)
+            {
+                N_op1 += 1 + 2;
+                top = new Node(value);
+            }
+            else
+            {
+                Node tmp = top;
+                N_op1++;
+                while (tmp.Next != null)
+                {
+                    N_op1 += 2;
+                    tmp = tmp.Next;
+                    N_op1 += 2;
+                }
+                tmp.Next = new Node(value);
+                N_op1 += 2;
+            }
+            Count++;
+            N_op1++;
+        }
+        public T Peek() 
+        {
+            if (Empty == false)
+            {
+                N_op1++;
+                return top.Value;
+            }
+            else
+            {
+                return default(T);
+            }
+        }
+        public T Dequeue()
+        {
+            if (Empty == false)
+            {
+                N_op1++;
+                Node tmp = top;
+                N_op1++;
+                top = top.Next;
+                N_op1 += 2;
+                --Count;
+                N_op1++;
+                return tmp.Value;
+            }
+            else
+            {
+                return default(T);
+            }
+        }
+        public int Count {get; private set;}
+        public bool Empty {get { return top == null; } }
+        public void Clean()
+        {
+            while (Empty != false)
+            {
+                Dequeue ();
+                N_op1++;
+            }
+        }
+
+        private Node top;
+    }
+    
     class Class1 : Queue<int>
     {
         public ulong N_op { get; set; } = 0;
+        
+        
         public void Sorting()
         {
             //Создание двух вспомогательных очередей
-            Queue<int> a1 = new Queue<int>();
-            Queue<int> a2 = new Queue<int>();
+
+            Ochered<int> a1 = new Ochered<int>();
+            Ochered<int> a2 = new Ochered<int>();
+            
             int i, j;
             int k = 1;
             N_op++;
+            
+            
             while (k < Count)
             {
                 N_op += 2;
@@ -109,6 +202,7 @@ namespace ClassLib
                     N_op += 2;
                     Enqueue(a2.Peek());
                     N_op += 2;
+                    
                     a2.Dequeue();
                     N_op++;
                 }
