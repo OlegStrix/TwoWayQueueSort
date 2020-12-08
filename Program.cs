@@ -20,7 +20,7 @@ namespace TwoWayQueueSort
                 //Заполнение очереди рандомными числами 
                 for (int f = 0; f < digitsCounts; f++)
                 {
-                    a.Enqueue(rand.Next(9999999));
+                    a.Enqueue(rand.Next(999999));
                 }
                 
                 //Начало отсчета времени
@@ -35,7 +35,7 @@ namespace TwoWayQueueSort
                 Console.WriteLine($"Number of sortings: {p + 1}");
                 Console.WriteLine($"\tNumber of sorted items: {digitsCounts}");
                 Console.WriteLine($"\tSorting time (sec, ms): {interval.Seconds}, {interval.Milliseconds}");
-                Console.WriteLine($"\tN_op = {a.N_op + b.N_op1}\n");
+                Console.WriteLine($"\tN_op = {a.N_op }\n");
                 //Отчистка очереди
                 a.Clear();
                 //Увеличение количества элементов очереди
@@ -43,6 +43,7 @@ namespace TwoWayQueueSort
                 //Обнуляем время
                 time.Reset();
             }
+            Console.ReadKey();
         }
     }
 }

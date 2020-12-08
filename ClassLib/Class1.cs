@@ -5,11 +5,8 @@ using System.Net.Sockets;
 
 namespace ClassLib
 {
-    class Ochered<T>
+    class Ochered<T> : Class1
     {
-        //Счетчик N_op для класса
-        public ulong N_op1 { get; set; } = 0;
-        
         class Node
         {
             public Node(T val = default(T), Node n = null)
@@ -29,31 +26,31 @@ namespace ClassLib
         {
             if (Empty == true)
             {
-                N_op1 += 1 + 2;
+                N_op += 1 + 2;
                 top = new Node(value);
             }
             else
             {
                 Node tmp = top;
-                N_op1++;
+                N_op++;
                 while (tmp.Next != null)
                 {
-                    N_op1 += 2;
+                    N_op += 2;
                     tmp = tmp.Next;
-                    N_op1 += 2;
+                    N_op += 2;
                 }
                 tmp.Next = new Node(value);
-                N_op1 += 2;
+                N_op += 2;
             }
             Count++;
-            N_op1++;
+            N_op+=2;
         }
         //Получение значения первого элемента очереди
-        public T Peek() 
+        public new T Peek() 
         {
             if (Empty == false)
             {
-                N_op1++;
+                N_op++;
                 return top.Value;
             }
             else
@@ -62,17 +59,17 @@ namespace ClassLib
             }
         }
         //Удаление элемента очереди
-        public T Dequeue()
+        public new T Dequeue()
         {
             if (Empty == false)
             {
-                N_op1++;
+                N_op++;
                 Node tmp = top;
-                N_op1++;
+                N_op++;
                 top = top.Next;
-                N_op1 += 2;
+                N_op += 2;
                 --Count;
-                N_op1++;
+                N_op += 2;
                 return tmp.Value;
             }
             else
@@ -81,19 +78,18 @@ namespace ClassLib
             }
         }
         //Количество элементов очереди
-        public int Count {get; private set;}
+        public new int Count {get; private set;}
         //Проверка на наличие элементов очереди
         public bool Empty {get { return top == null; } }
         //Удаление всех элементов очереди
-        public void Clean()
+        public new void Clear()
         {
             while (Empty != false)
             {
                 Dequeue ();
-                N_op1++;
+                N_op++;
             }
         }
-
         private Node top;
     }
     
@@ -215,7 +211,7 @@ namespace ClassLib
                     N_op++;
                 }
 
-                //Увеличение счеткика в два раза
+                //Увеличение счетчика в два раза
                 k *= 2;
                 N_op++;
             }
