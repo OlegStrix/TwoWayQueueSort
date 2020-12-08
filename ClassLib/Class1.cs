@@ -7,6 +7,7 @@ namespace ClassLib
 {
     class Ochered<T>
     {
+        //Счетчик N_op для класса
         public ulong N_op1 { get; set; } = 0;
         
         class Node
@@ -23,6 +24,7 @@ namespace ClassLib
         {
             top = null;
         }
+        //Добавление элемента в очередь
         public void Enqueue(T value)
         {
             if (Empty == true)
@@ -46,6 +48,7 @@ namespace ClassLib
             Count++;
             N_op1++;
         }
+        //Получение значения первого элемента очереди
         public T Peek() 
         {
             if (Empty == false)
@@ -58,6 +61,7 @@ namespace ClassLib
                 return default(T);
             }
         }
+        //Удаление элемента очереди
         public T Dequeue()
         {
             if (Empty == false)
@@ -76,8 +80,11 @@ namespace ClassLib
                 return default(T);
             }
         }
+        //Количество элементов очереди
         public int Count {get; private set;}
+        //Проверка на наличие элементов очереди
         public bool Empty {get { return top == null; } }
+        //Удаление всех элементов очереди
         public void Clean()
         {
             while (Empty != false)
@@ -92,6 +99,7 @@ namespace ClassLib
     
     class Class1 : Queue<int>
     {
+        //Счетчик N_op для класса
         public ulong N_op { get; set; } = 0;
         
         
